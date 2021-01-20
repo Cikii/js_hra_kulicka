@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#hra{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+}
+#koule{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    top: 440px;
+    left: 190px;
+    z-index: 1000000;
+}
+.cara{
+    width: 400px;
+    height: 20px;
+    background-color: orange;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+.dira{
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
